@@ -1,0 +1,26 @@
+.searchBarIcon {
+    color: white;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group){
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 1px;
+
+    border-color: white;
+
+    transition: .3s;
+
+}
+.searchBarContainer :global(.vtex-input-prefix__group):hover{
+    border-color: greenyellow;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+    color: white;
+    background-color: #212121;
+}
+.searchBarContainer :global(.vtex-input__suffix){
+    background-color: #212121;
+}
