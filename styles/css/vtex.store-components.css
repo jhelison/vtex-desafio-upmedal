@@ -15,7 +15,7 @@
 
 }
 .searchBarContainer :global(.vtex-input-prefix__group):hover{
-    border-color: greenyellow;
+    border-color: #59ff00;
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input){
     color: white;
