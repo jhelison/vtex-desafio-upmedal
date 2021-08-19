@@ -19,11 +19,13 @@
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": true,
+            //Avoids the flex to break on small screens
             "preserveLayoutOnMobile": true
         },
         "children": [
             "flex-layout.col#logo",
             "flex-layout.col#spacer",
+            //To do: Fix how the search results apear and the transition animation
             "flex-layout.col#search",
             "flex-layout.col#spacer",
             "minicart.v2",
