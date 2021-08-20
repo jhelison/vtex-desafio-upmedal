@@ -82,7 +82,7 @@
             "base--inverted": "#03044e",
             "action-primary": "rgba(255,255,255,0)",
             "action-secondary": "#eef3f7",
-            "emphasis": "#f71963",
+            "emphasis": "#59ff00",
             "disabled": "#f2f4f5",
             "success": "#8bc34a",
             "success--faded": "#eafce3",

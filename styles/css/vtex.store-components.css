@@ -1,7 +1,7 @@
+/* Search bar customization */
 .searchBarIcon {
     color: white;
 }
-
 .searchBarContainer :global(.vtex-input-prefix__group){
     border-radius: 0;
     border-top: 0;
@@ -23,4 +23,9 @@
 }
 .searchBarContainer :global(.vtex-input__suffix){
     background-color: #212121;
+}
+
+/* Slider-layout img customization */
+.imageElement {
+    border-radius: 20px;
 }

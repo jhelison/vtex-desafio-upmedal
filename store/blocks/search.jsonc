@@ -1,7 +1,47 @@
 {
-  "store.search": {
-    "blocks": [
-      
-    ]
-  }
+    "store.search": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "store.search#category": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "store.search#brand": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "store.search#department": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "store.search#subcategory": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    }
 }
