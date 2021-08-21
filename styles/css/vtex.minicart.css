@@ -5,3 +5,7 @@
 .minicartContentContainer :global(.vtex-minicart-2-x-cartIcon) {
     font-size: 20rem;
 }
+
+.minicartQuantityBadge {
+    background-color: #f44336;
+}

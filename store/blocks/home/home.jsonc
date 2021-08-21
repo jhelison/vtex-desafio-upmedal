@@ -80,7 +80,7 @@
     },
     "tab-content.item#promocao": {
         "children": [
-            "slider-layout#text-test",
+            "flex-layout.row#slider",
             "search-result-layout.customQuery#promocao"
         ],
         "props": {

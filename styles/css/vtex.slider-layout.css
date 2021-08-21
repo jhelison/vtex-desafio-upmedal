@@ -1,7 +1,29 @@
-.caretIcon {
+.sliderArrows {
     color: white;
+    /* position: absolute;
+    margin-top: 400px; */
+}
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow){
+    position: absolute;
+    bottom: -40px;
+    left: 350px;
+}
+:global(.vtex-slider-layout-0-x-sliderRightArrow){
+    position: absolute;
+    bottom: -40px;
+    right: 350px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer){
+    position: absolute;
+    bottom: -40px;
 }
 
 .slideChildrenContainer {
     margin-top: 20px;
+}
+
+:global(.vtex-slider-layout-0-x-slide) {
+    background-color: #303030;
 }
