@@ -4,23 +4,23 @@
     },
     "flex-layout.row#main": {
         "props": {
-          "marginTop": 6
+            "marginTop": 6
         },
+        "children": ["flex-layout.row#left", "flex-layout.col#right"]
+    },
+    "flex-layout.row#left": {
+        "children": ["product-images"]
+    },
+    "product-images": {
+        "props": {
+            "displayThumbnailsArrows": true
+        }
+    },
+    "flex-layout.col#right": {
         "children": [
-          "flex-layout.col#left",
-          "flex-layout.col#right"
+            "vtex.store-components:product-name",
+            "product-price",
+            "buy-button"
         ]
-      },
-      "flex-layout.col#left": {
-        "children": [
-          "product-images"
-        ]
-      },
-      "flex-layout.col#right": {
-        "children": [
-          "vtex.store-components:product-name",
-          "product-price",
-          "buy-button"
-        ]
-      }
+    }
 }
