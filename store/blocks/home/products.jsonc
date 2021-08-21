@@ -1,8 +1,9 @@
 {
     //Product List
-    "search-result-layout.customQuery#promocao": {
+    "search-result-layout.customQuery#todos": {
         "props": {
             "querySchema": {
+                // "skusFilter": "FIRST_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
@@ -12,13 +13,14 @@
         },
         "blocks": ["search-result-layout.desktop"]
     },
-    "search-result-layout.customQuery#maravilhas": {
+    "search-result-layout.customQuery#promocao": {
         "props": {
             "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "7 Maravilhas",
+                "queryField": "promocao",
                 "mapField": "category-2"
             }
         },
@@ -27,6 +29,7 @@
     "search-result-layout.customQuery#corinthians": {
         "props": {
             "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
@@ -39,10 +42,11 @@
     "search-result-layout.customQuery#divertidos": {
         "props": {
             "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
-                "hideUnavailableItems": true,
+                // "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "Divertidos",
+                "queryField": "25",
                 "mapField": "category-2"
             }
         },
@@ -51,6 +55,7 @@
     "search-result-layout.customQuery#guerreiros": {
         "props": {
             "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
@@ -63,11 +68,12 @@
     "search-result-layout.customQuery#palmeiras": {
         "props": {
             "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "Palmeiras",
-                "mapField": "category-2"
+                "queryField": "palmeiras",
+                "mapField": "ft"
             }
         },
         "blocks": ["search-result-layout.desktop"]
@@ -75,6 +81,7 @@
     "search-result-layout.customQuery#signos": {
         "props": {
             "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,

@@ -6,15 +6,15 @@
         "children": ["tab-list#home", "tab-content#home"],
         "props": {
             "blockClass": "home",
-            "defaultActiveTabId": "promocao"
+            "defaultActiveTabId": "todos"
         }
     },
     //Tab layout -------------------------------
     "tab-list#home": {
         //Todo: avoid break on responsive
         "children": [
+            "tab-list.item#todos",
             "tab-list.item#promocao",
-            "tab-list.item#maravilhas",
             "tab-list.item#corinthians",
             "tab-list.item#divertidos",
             "tab-list.item#guerreiros",
@@ -23,17 +23,18 @@
         ]
     },
     //Tab list-----------
+    "tab-list.item#todos": {
+        "props": {
+            "tabId": "todos",
+            "label": "Todos",
+            "defaultActiveTab": true
+        }
+    },
     "tab-list.item#promocao": {
         "props": {
             "tabId": "promocao",
             "label": "Promoção",
             "defaultActiveTab": true
-        }
-    },
-    "tab-list.item#maravilhas": {
-        "props": {
-            "tabId": "maravilhas",
-            "label": "7 MARAVILHAS"
         }
     },
     "tab-list.item#corinthians": {
@@ -69,14 +70,23 @@
     //Tab content-----------
     "tab-content#home": {
         "children": [
+            "tab-content.item#todos",
             "tab-content.item#promocao",
-            "tab-content.item#maravilhas",
             "tab-content.item#corinthians",
             "tab-content.item#divertidos",
             "tab-content.item#guerreiros",
             "tab-content.item#palmeiras",
             "tab-content.item#signos"
         ]
+    },
+    "tab-content.item#todos": {
+        "children": [
+            "flex-layout.row#slider",
+            "search-result-layout.customQuery#todos"
+        ],
+        "props": {
+            "tabId": "todos"
+        }
     },
     "tab-content.item#promocao": {
         "children": [
@@ -85,15 +95,6 @@
         ],
         "props": {
             "tabId": "promocao"
-        }
-    },
-    "tab-content.item#maravilhas": {
-        "children": [
-            "flex-layout.row#slider",
-            "search-result-layout.customQuery#maravilhas"
-        ],
-        "props": {
-            "tabId": "maravilhas"
         }
     },
     "tab-content.item#corinthians": {
