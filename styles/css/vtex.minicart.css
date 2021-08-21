@@ -9,3 +9,15 @@
 .minicartQuantityBadge {
     background-color: #f44336;
 }
+
+.minicartSummary {
+    color: white;
+}
+
+.minicartCheckoutButton{
+    background-color: #59ff00;
+}
+.minicartCheckoutButton :global(.vtex-button__label){
+    color: black;
+}
+
