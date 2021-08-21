@@ -1,0 +1,28 @@
+{
+    //Product List
+    "search-result-layout.customQuery#home": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    },
+    "search-result-layout.desktop": {
+        "children": ["flex-layout.row#results"],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": true
+        }
+    },
+    "flex-layout.row#results": {
+        "children": ["flex-layout.col#search"]
+    },
+    "flex-layout.col#search": {
+        "children": ["search-content"]
+    }
+}

@@ -1,0 +1,30 @@
+{
+        //slider-layout----------
+    //To do: Add a space on top and make the arrows go down
+    "slider-layout#text-test": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": ["image#slider1", "image#slider2"]
+    },
+
+    "image#slider1": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T234349Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=2306bf7e3ccc0a8ba1a4197f1d5961c75efc4bef22669ad4a4e041cdd1a49db7",
+            "maxHeight": 320
+        }
+    },
+    "image#slider2": {
+        "props": {
+            "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T234349Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=267c1d72ea3e63975bf753608716474ccce6bb95b224a49d355045272ee3189c",
+            "maxHeight": 320
+        }
+    }
+}
