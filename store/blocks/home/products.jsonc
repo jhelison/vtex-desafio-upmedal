@@ -1,17 +1,99 @@
 {
     //Product List
-    "search-result-layout.customQuery#home": {
+    "search-result-layout.customQuery#promocao": {
         "props": {
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 8
-                // "queryField": "Blue Top Retro Camera",
-                // "mapField": "ft"
+                "maxItemsPerPage": 8,
+                "queryField": "Kit UpMedal",
+                "mapField": "ft"
             }
         },
         "blocks": ["search-result-layout.desktop"]
     },
+    "search-result-layout.customQuery#maravilhas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "7 Maravilhas",
+                "mapField": "category-2"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    },
+    "search-result-layout.customQuery#corinthians": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Corinthians",
+                "mapField": "category-2"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    },
+    "search-result-layout.customQuery#divertidos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Divertidos",
+                "mapField": "category-2"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    },
+    "search-result-layout.customQuery#guerreiros": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Guerreiros",
+                "mapField": "category-2"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    },
+    "search-result-layout.customQuery#palmeiras": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Palmeiras",
+                "mapField": "category-2"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    },
+    "search-result-layout.customQuery#signos": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Signos",
+                "mapField": "category-2"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    },
+
+
+
+
+
+
+
+
+
+    
     "search-result-layout.desktop": {
         "children": ["flex-layout.row#results"],
         "props": {

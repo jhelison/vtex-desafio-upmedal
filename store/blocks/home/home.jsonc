@@ -14,20 +14,44 @@
         //Todo: avoid break on responsive
         "children": [
             "tab-list.item#promocao",
-            "tab-list.item#palmeiras",
-            "tab-list.item#signos",
-            "tab-list.item#divertidos",
             "tab-list.item#maravilhas",
+            "tab-list.item#corinthians",
+            "tab-list.item#divertidos",
             "tab-list.item#guerreiros",
-            "tab-list.item#album1"
+            "tab-list.item#palmeiras",
+            "tab-list.item#signos"
         ]
     },
     //Tab list-----------
     "tab-list.item#promocao": {
         "props": {
             "tabId": "promocao",
-            "label": "PROMOÇÃO",
+            "label": "Promoção",
             "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#maravilhas": {
+        "props": {
+            "tabId": "maravilhas",
+            "label": "7 MARAVILHAS"
+        }
+    },
+    "tab-list.item#corinthians": {
+        "props": {
+            "tabId": "corinthians",
+            "label": "CORINTHIANS"
+        }
+    },
+    "tab-list.item#divertidos": {
+        "props": {
+            "tabId": "divertidos",
+            "label": "DIVERTIDOS"
+        }
+    },
+    "tab-list.item#guerreiros": {
+        "props": {
+            "tabId": "guerreiros",
+            "label": "GUERREIROS"
         }
     },
     "tab-list.item#palmeiras": {
@@ -42,47 +66,79 @@
             "label": "SIGNOS"
         }
     },
-    "tab-list.item#divertidos": {
-        "props": {
-            "tabId": "divertidos",
-            "label": "DIVERTIDOS"
-        }
-    },
-    "tab-list.item#maravilhas": {
-        "props": {
-            "tabId": "maravilhas",
-            "label": "7 MARAVILHAS"
-        }
-    },
-    "tab-list.item#guerreiros": {
-        "props": {
-            "tabId": "guerreiros",
-            "label": "GUERREIROS"
-        }
-    },
-    "tab-list.item#album1": {
-        "props": {
-            "tabId": "album1",
-            "label": "ÁLBUM 1"
-        }
-    },
     //Tab content-----------
     "tab-content#home": {
-        "children": ["tab-content.item#promocao", "tab-content.item#home2"]
+        "children": [
+            "tab-content.item#promocao",
+            "tab-content.item#maravilhas",
+            "tab-content.item#corinthians",
+            "tab-content.item#divertidos",
+            "tab-content.item#guerreiros",
+            "tab-content.item#palmeiras",
+            "tab-content.item#signos"
+        ]
     },
     "tab-content.item#promocao": {
         "children": [
             "slider-layout#text-test",
-            "search-result-layout.customQuery#home"
+            "search-result-layout.customQuery#promocao"
         ],
         "props": {
             "tabId": "promocao"
         }
     },
-    "tab-content.item#home2": {
-        "children": [],
+    "tab-content.item#maravilhas": {
+        "children": [
+            "slider-layout#text-test",
+            "search-result-layout.customQuery#maravilhas"
+        ],
         "props": {
-            "tabId": "home2"
+            "tabId": "maravilhas"
+        }
+    },
+    "tab-content.item#corinthians": {
+        "children": [
+            "slider-layout#text-test",
+            "search-result-layout.customQuery#corinthians"
+        ],
+        "props": {
+            "tabId": "corinthians"
+        }
+    },
+    "tab-content.item#divertidos": {
+        "children": [
+            "slider-layout#text-test",
+            "search-result-layout.customQuery#divertidos"
+        ],
+        "props": {
+            "tabId": "divertidos"
+        }
+    },
+    "tab-content.item#guerreiros": {
+        "children": [
+            "slider-layout#text-test",
+            "search-result-layout.customQuery#guerreiros"
+        ],
+        "props": {
+            "tabId": "guerreiros"
+        }
+    },
+    "tab-content.item#palmeiras": {
+        "children": [
+            "slider-layout#text-test",
+            "search-result-layout.customQuery#palmeiras"
+        ],
+        "props": {
+            "tabId": "palmeiras"
+        }
+    },
+    "tab-content.item#signos": {
+        "children": [
+            "slider-layout#text-test",
+            "search-result-layout.customQuery#signos"
+        ],
+        "props": {
+            "tabId": "signos"
         }
     }
 }
