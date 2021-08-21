@@ -2,10 +2,8 @@
     "product-summary.shelf": {
         "children": [
             "product-summary-name",
-            "product-summary-description",
             "product-summary-image",
-            "product-summary-price",
-            "product-summary-sku-selector",
+            "product-selling-price",
             "product-summary-buy-button"
         ]
     }

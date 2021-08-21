@@ -32,12 +32,29 @@
         "props": {
             "layouts": [
                 {
-                    "name": "two",
+                    "name": "whole",
                     "component": "OneOrTwoLineSummary",
-                    "itemsPerRow": 2
+                    "itemsPerRow": {
+                        "desktop": 2,
+                        "mobile": 1
+                    }
+                },
+                // {
+                //     "name": "two",
+                //     "component": "OneOrTwoLineSummary",
+                //     "itemsPerRow": 2
+                // },
+                {
+                    "name": "many",
+                    "component": "ManyByLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 2,
+                        "mobile": 1
+                    }
                 }
             ],
             "OneOrTwoLineSummary": "product-summary.shelf"
+            // "ManyByLineSummary": "product-summary.shelf"
         }
     }
 }
