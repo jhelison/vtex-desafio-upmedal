@@ -2,3 +2,13 @@
     background-color: #212121;
     height: 85px;
 }
+
+
+.flexCol--product :global(.vtex-button) {
+    background-color: #59ff00;
+    margin-left: 10px;
+    color: #212121;
+}
+.flexCol--product :global(.vtex-button):hover {
+    background-color: rgba(89, 255, 0, 0.5);
+}

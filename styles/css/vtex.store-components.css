@@ -29,3 +29,16 @@
 .imageElement {
     border-radius: 20px;
 }
+
+.productBrand {
+    color: #59ff00;
+    margin-left: 20px;
+}
+.sellingPrice {
+    margin-left: 20px;
+}
+
+:global(.vtex-store-components-3-x-productImagesContainer) {
+    border: 1px solid #59ff00;
+    padding: 5px;
+}
