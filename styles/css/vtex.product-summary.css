@@ -4,6 +4,10 @@
     text-align: left;
 }
 
+.nameContainer {
+    padding-left: 20px;
+}
+
 .buyButton {
     background-color: #59ff00;
     width: fit-content;
