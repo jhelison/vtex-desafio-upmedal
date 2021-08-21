@@ -21,3 +21,6 @@
     color: black;
 }
 
+:global(.vtex-minicart-2-x-overlay) {
+    filter: blur(.4);
+}
