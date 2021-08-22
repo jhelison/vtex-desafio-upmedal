@@ -42,3 +42,7 @@
     border: 1px solid #59ff00;
     padding: 5px;
 }
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel) {
+    background-color: #303030;
+}
