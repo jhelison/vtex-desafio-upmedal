@@ -1,6 +1,6 @@
 {
     "store.home": {
-        "blocks": ["tab-layout#home"]
+        "blocks": ["leads-reporter", "tab-layout#home"]
     },
     "tab-layout#home": {
         "children": ["tab-list#home", "tab-content#home"],
