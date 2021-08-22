@@ -21,7 +21,7 @@
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
                 "queryField": "promocao",
-                "mapField": "category-3"
+                "mapField": "category-2"
             }
         },
         "blocks": ["search-result-layout.desktop"]
@@ -33,8 +33,8 @@
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "42",
-                "mapField": "category-3"
+                "queryField": "Corinthians",
+                "mapField": "category-2"
             }
         },
         "blocks": ["search-result-layout.desktop"]
@@ -59,8 +59,8 @@
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "45",
-                "mapField": "category-3"
+                "queryField": "guerreiros",
+                "mapField": "category-2"
             }
         },
         "blocks": ["search-result-layout.desktop"]
@@ -72,8 +72,8 @@
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "43",
-                "mapField": "category-3"
+                "queryField": "palmeiras",
+                "mapField": "category-2"
             }
         },
         "blocks": ["search-result-layout.desktop"]
@@ -85,8 +85,8 @@
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "44",
-                "mapField": "category-3"
+                "queryField": "signos",
+                "mapField": "category-2"
             }
         },
         "blocks": ["search-result-layout.desktop"]
