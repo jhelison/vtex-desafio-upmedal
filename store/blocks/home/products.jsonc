@@ -3,7 +3,7 @@
     "search-result-layout.customQuery#todos": {
         "props": {
             "querySchema": {
-                // "skusFilter": "FIRST_AVAILABLE",
+                "skusFilter": "ALL_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
@@ -16,12 +16,12 @@
     "search-result-layout.customQuery#promocao": {
         "props": {
             "querySchema": {
-                "skusFilter": "FIRST_AVAILABLE",
+                "skusFilter": "ALL_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
                 "queryField": "promocao",
-                "mapField": "category-2"
+                "mapField": "category-3"
             }
         },
         "blocks": ["search-result-layout.desktop"]
@@ -29,24 +29,24 @@
     "search-result-layout.customQuery#corinthians": {
         "props": {
             "querySchema": {
-                "skusFilter": "FIRST_AVAILABLE",
+                "skusFilter": "ALL_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "Corinthians",
-                "mapField": "category-2"
+                "queryField": "42",
+                "mapField": "category-3"
             }
         },
         "blocks": ["search-result-layout.desktop"]
     },
-    "search-result-layout.customQuery#divertidos": {
+    "search-result-layout.customQuery#desafios": {
         "props": {
             "querySchema": {
-                "skusFilter": "FIRST_AVAILABLE",
+                "skusFilter": "ALL_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
-                // "hideUnavailableItems": true,
+                "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "25",
+                "queryField": "desafios",
                 "mapField": "category-2"
             }
         },
@@ -55,12 +55,12 @@
     "search-result-layout.customQuery#guerreiros": {
         "props": {
             "querySchema": {
-                "skusFilter": "FIRST_AVAILABLE",
+                "skusFilter": "ALL_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "Guerreiros",
-                "mapField": "category-2"
+                "queryField": "45",
+                "mapField": "category-3"
             }
         },
         "blocks": ["search-result-layout.desktop"]
@@ -68,12 +68,12 @@
     "search-result-layout.customQuery#palmeiras": {
         "props": {
             "querySchema": {
-                "skusFilter": "FIRST_AVAILABLE",
+                "skusFilter": "ALL_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "palmeiras",
-                "mapField": "ft"
+                "queryField": "43",
+                "mapField": "category-3"
             }
         },
         "blocks": ["search-result-layout.desktop"]
@@ -81,12 +81,12 @@
     "search-result-layout.customQuery#signos": {
         "props": {
             "querySchema": {
-                "skusFilter": "FIRST_AVAILABLE",
+                "skusFilter": "ALL_AVAILABLE",
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
-                "queryField": "Signos",
-                "mapField": "category-2"
+                "queryField": "44",
+                "mapField": "category-3"
             }
         },
         "blocks": ["search-result-layout.desktop"]

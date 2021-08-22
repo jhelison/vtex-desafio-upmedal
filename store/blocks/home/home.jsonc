@@ -16,7 +16,7 @@
             "tab-list.item#todos",
             "tab-list.item#promocao",
             "tab-list.item#corinthians",
-            "tab-list.item#divertidos",
+            "tab-list.item#desafios",
             "tab-list.item#guerreiros",
             "tab-list.item#palmeiras",
             "tab-list.item#signos"
@@ -43,10 +43,10 @@
             "label": "CORINTHIANS"
         }
     },
-    "tab-list.item#divertidos": {
+    "tab-list.item#desafios": {
         "props": {
-            "tabId": "divertidos",
-            "label": "DIVERTIDOS"
+            "tabId": "desafios",
+            "label": "DESAFIOS"
         }
     },
     "tab-list.item#guerreiros": {
@@ -73,7 +73,7 @@
             "tab-content.item#todos",
             "tab-content.item#promocao",
             "tab-content.item#corinthians",
-            "tab-content.item#divertidos",
+            "tab-content.item#desafios",
             "tab-content.item#guerreiros",
             "tab-content.item#palmeiras",
             "tab-content.item#signos"
@@ -106,13 +106,13 @@
             "tabId": "corinthians"
         }
     },
-    "tab-content.item#divertidos": {
+    "tab-content.item#desafios": {
         "children": [
             "flex-layout.row#slider",
-            "search-result-layout.customQuery#divertidos"
+            "search-result-layout.customQuery#desafios"
         ],
         "props": {
-            "tabId": "divertidos"
+            "tabId": "desafios"
         }
     },
     "tab-content.item#guerreiros": {
