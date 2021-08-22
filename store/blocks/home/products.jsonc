@@ -91,15 +91,6 @@
         },
         "blocks": ["search-result-layout.desktop"]
     },
-
-
-
-
-
-
-
-
-
     
     "search-result-layout.desktop": {
         "children": ["flex-layout.row#results"],
@@ -109,7 +100,10 @@
         }
     },
     "flex-layout.row#results": {
-        "children": ["flex-layout.col#search-product"]
+        "children": ["flex-layout.col#search-product"],
+        "props": {
+            "marginBottom": 5
+        }
     },
     "flex-layout.col#search-product": {
         "children": ["search-content"]

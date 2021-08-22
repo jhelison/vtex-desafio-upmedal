@@ -14,13 +14,7 @@
   },
   "flex-layout.row#footer": { 
     "children": [
-      "image"
+        "custom-footer"
     ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
   }
 }

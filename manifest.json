@@ -48,7 +48,8 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.search": "2.x",
     "vtex.product-list": "0.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "vtex.countdown": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
