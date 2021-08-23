@@ -8,7 +8,8 @@
     "docs": "0.x",
     "assets": "0.x",
     "react": "3.x",
-    "messages": "1.x"
+    "messages": "1.x",
+    "admin": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
