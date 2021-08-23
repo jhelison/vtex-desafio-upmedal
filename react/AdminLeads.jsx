@@ -8,10 +8,6 @@ const AdminLeads = () => {
         getProspects()
     }, [])
 
-    useEffect(() => {
-        console.log(prospects)
-    }, [prospects])
-
     const getProspects = async () => {
         try {
             const res = await fetch(
@@ -62,13 +58,15 @@ const AdminLeads = () => {
     const renderProspectsTable = () => {
         return (
             <table style={{ width: "100%" }}>
-                <tr>
-                    <th>Nome</th>
-                    <th>Email</th>
-                    <th>Telefone</th>
-                    <th>Ações</th>
-                </tr>
-                {renderProspectsItems()}
+                <tbody>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Ações</th>
+                    </tr>
+                    {renderProspectsItems()}
+                </tbody>
             </table>
         )
     }
@@ -76,7 +74,7 @@ const AdminLeads = () => {
     const renderProspectsItems = () => {
         return prospects.map((item) => {
             return (
-                <tr>
+                <tr key={item.id}>
                     <td>{item.name}</td>
                     <td>{item.email}</td>
                     <td>{item.fone}</td>
