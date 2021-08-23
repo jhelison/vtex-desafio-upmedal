@@ -16,7 +16,7 @@
 :small_blue_diamond: [Principais Objetivos do projeto](#como-rodar)
 
 ## Descrição do projeto
-<p align="justify"> Essa é a minha versão do desafio 3 da **Hiring Coders** usando a plataforma **Vtex IO**. Este projeto também foi construido utilizando **React** e um backend simplificado usando **AWS**. </p>
+Essa é a minha versão do desafio 3 da **Hiring Coders** usando a plataforma **Vtex IO**. Este projeto também foi construido utilizando **React** e um backend simplificado usando **AWS**.
 
 
 ### Principais Objetivos do projeto
