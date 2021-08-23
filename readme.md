@@ -13,7 +13,15 @@
 
 :small_blue_diamond: [Principais Objetivos do projeto](#principais-objetivos)
 
-:small_blue_diamond: [Principais Objetivos do projeto](#como-rodar)
+:small_blue_diamond: [Pré-requisitos](#pre-requisitos)
+
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar)
+
+:small_blue_diamond: [Problema do Admin](#problema-admin)
+
+:small_blue_diamond: [Workaround](#workaround)
+
+:small_blue_diamond: [Agradecimentos](#agradecimentos)
 
 ## Descrição do projeto
 Essa é a minha versão do desafio 3 da **Hiring Coders** usando a plataforma **Vtex IO**. Este projeto também foi construido utilizando **React** e um backend simplificado usando **AWS**.
@@ -75,5 +83,5 @@ Para linkar a aplicação o seguinte workaround deve ser útilizado:
 
 Isso fara com que o modulo pule a verificação da vtex.
 
-## Agradecimento :cake:
+## Agradecimentos :cake:
 Agradeço ao pessoal do Slack por ter ajudado logo quando estava precisando, e ao pessoal do Hiring Codes e Vtex IO pela oportunidade de usar a plataforma.
