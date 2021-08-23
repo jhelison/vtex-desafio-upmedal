@@ -10,7 +10,9 @@
 
 ## Tópicos
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
 :small_blue_diamond: [Principais Objetivos do projeto](#principais-objetivos)
+
 :small_blue_diamond: [Principais Objetivos do projeto](#como-rodar)
 
 ## Descrição do projeto
@@ -19,8 +21,11 @@
 
 ### Principais Objetivos do projeto
 :heavy_check_mark: Construção do modelo do site [UpMedal](https://www.upmedal.com/desafios) usando as ferramentas da **Vtex IO**.
+
 :heavy_check_mark: Criação de servidor de cadastro de leads usando os produtos **dynamodb, lambda** e **API Gateway** da **AWS** .
+
 :heavy_check_mark: Criação do front-end para cadastro das leads. 
+
 :heavy_check_mark: Alteração da admin page para listagem das leads. 
 
 ## Pré-requisitos
