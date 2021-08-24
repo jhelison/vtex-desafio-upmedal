@@ -56,7 +56,7 @@ Essa é a minha versão do desafio 3 da **Hiring Coders** usando a plataforma **
 O projeto também pode ser acessado pelo [link](https://jhelisonexercise1--hiringcoders2021.myvtex.com/).
 
 ## Problema do Admin :space_invader:
-Durante o desenvolvimento foi encontrado um problema a durante a adição do builder admin. O mesmo apresenta o seguinte erro:
+Durante o desenvolvimento foi encontrado um problema durante a adição do builder admin. O mesmo apresenta o seguinte erro:
 
 ```bash
 error: API: 403 Forbidden  
