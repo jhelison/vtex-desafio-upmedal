@@ -69,7 +69,7 @@ Find further info at https://vtex.io/docs/releases/2020-02/vtex-io-closed-beta-l
 Que impossibilita o link da aplicação com os servidores da Vtex.
 
 ### Workaround :circus_tent:
-Para linkar a aplicação o seguinte workaround deve ser útilizado:
+Para linkar a aplicação o seguinte workaround deve ser utilizado:
 - Remover o `"admin": "0.x"` do `manifest.json`
 ```json
   "builders": {
@@ -79,7 +79,7 @@ Para linkar a aplicação o seguinte workaround deve ser útilizado:
 ```
 
 - Usar `vtex link` no terminal
-- Ainda com o terminal aberto com o hotload da vtex adicionar o  `"admin": "0.x"` dentro do `manifest.json`
+- Ainda com o terminal aberto com o hotload da vtex, adicionar o  `"admin": "0.x"` dentro do `manifest.json`
 
 Isso fara com que o modulo pule a verificação da vtex.
 
